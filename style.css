@@ -1,0 +1,42 @@
+body {
+  background-size: 100%;
+  background-color: #27565E;
+}
+
+#mainCont {
+  margin-top: 100px;
+  background-color: #FFF377;
+  width: 600px;
+  border: black solid 5px;
+  border-radius: 15%;
+}
+
+.infoText {
+  font-size: 400%;
+  font-family: 'Aldrich', sans-serif;
+}
+
+#weatherDescription {
+  margin: auto;
+}
+
+h1 {
+  font-size: 540%;
+  margin-bottom: 10px;
+}
+
+i {
+  position: relative;
+  left: 75px;
+  top: 60px;
+}
+
+#midRow {
+  border-top: black solid 5px;
+  border-bottom: black solid 5px;
+  height: 200px;
+}
+
+#iconDiv {
+  border-left: black 5px solid;
+}

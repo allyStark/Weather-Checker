@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  </head>
+  
+  <body>
+    
+    <div class="container" id="mainCont">
+	
+		<div class="row" id="topRow">
+	
+			<h1 id="placeName" class="text-center col">Loading...</h1>	
+	
+		</div>
+		
+		<div class="row" id="midRow">
+		
+			<div class="col infoText text-center" id="weatherDescription"></div>
+				
+			<div class="col infoText" id="#iconDiv"><i id="weatherIconDiv"class=""></i></div>
+		
+		</div>
+
+		<div class="row">
+				
+			<div class="infoText temp col text-right" id="temperature"></div>
+			
+			<div class="infoText temp col text-left" id="toggleDiv"><input id="tempToggle" data-on="℃" data-off="℉" data-size="medium" type="checkbox" checked data-toggle="toggle"></div>
+		
+		</div>
+	
+	</div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  
+    <script src="javascript.js"></script>
+
+  </body>
+
+</html>
